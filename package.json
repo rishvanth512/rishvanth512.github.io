@@ -1,5 +1,5 @@
 {
-  "homepage": "http://rishvanth512.github.io",
+  "homepage": "https://rishvanth512.github.io",
   "name": "rishu",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.17",
