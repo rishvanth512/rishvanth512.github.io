@@ -57,7 +57,7 @@ export default function HeroSection() {
       </p>
       <div className="flex justify-center my-10">
         <a
-          href="https://drive.google.com/file/d/1-Wy9OYhOQH96mfcv1e7tqqyB963bSJYV/view"
+          href="https://drive.google.com/file/d/1DMUhBq2ckowzAAVJXGYlTS1eg1n9Qy_j/view"
           target="_blank"
           className=" flex items-center space-x-2 justify-start bg-black text-white 
               rounded-lg px-6 py-3 hover:bg-[#24292f] hover:scale-105 
