@@ -45,7 +45,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="text-white py-16 px-6 border-b border-neutral-800">
+    <div id="skills" className="text-white py-16 px-6 border-b border-neutral-800 pt-16">
       <div className="text-center">
         <h2
           className="text-2xl sm:text-2xl lg:text-3xl mt-5 lg:mt-5 tracking-wide 

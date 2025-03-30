@@ -41,7 +41,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="relative mt-20 border-b border-neutral-800 min-h-[350px]">
+    <div id="projects" className="relative mt-20 border-b border-neutral-800 min-h-[350px]">
       <div className="text-center">
         <h2
           className="text-2xl sm:text-2xl lg:text-3xl mt-0 lg:mt-0 tracking-wide 

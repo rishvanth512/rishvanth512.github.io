@@ -20,7 +20,7 @@ const education = [
 
 const Education = () => {
   return (
-    <div className="relative mt-20 border-b border-neutral-800 min-h-[350px]">
+    <div id="education" className="relative mt-5 border-b border-neutral-800 min-h-[350px] pt-20">
             <div className='text-center'>     
             <h2  className="text-2xl sm:text-2xl lg:text-3xl mt-0 lg:mt-0 tracking-wide 
             bg-gradient-to-r from-[#ff0080] to-[#7928CA] bg-clip-text text-transparent uppercase 
