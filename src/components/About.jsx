@@ -1,10 +1,12 @@
 
 const About = () => {
   const sectionId = "about";
+  
       return (
+        
         <div id={sectionId}  className="relative mt-10 border-b border-neutral-800 min-h-[500px] pt-16">
             <div className='text-center'>     
-            <h2  className="text-2xl sm:text-2xl lg:text-3xl mt-10 lg:mt-5 tracking-wide 
+            <h2  className="text-2xl sm:text-2xl lg:text-3xl mb-8 mt-10 lg:mt-5 tracking-wide 
             bg-gradient-to-r from-[#ff0080] to-[#7928CA] bg-clip-text text-transparent uppercase 
             relative inline-block px-6 py-3 border border-[#ff0080] rounded-lg shadow-lg"
             style={{textShadow: "2px 2px 6px rgba(255, 0, 128, 0.6)",
