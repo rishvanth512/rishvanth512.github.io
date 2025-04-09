@@ -37,6 +37,13 @@ const Projects = () => {
         'A machine learning-based system for predicting diabetes risk using patient data and predictive analytics.',
       githubLink: 'https://github.com/rishvanth512/Diabetes-prediction',
     },
+    {
+      title: 'Portifolio',
+      description:
+        'A personal portfolio website showcasing projects, skills, and experiences, designed to highlight expertise and attract potential clients or employers.',
+      githubLink: 'https://github.com/rishvanth512/portifolio',
+    },
+    
     
   ];
 

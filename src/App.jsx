@@ -7,15 +7,17 @@ import Skills from './components/Skills'
 import Education from './components/Education'
 import Projects from './components/Projects'
 import Particle from './components/Particle'
+import Footer from './components/Footer'
+import PageLoader from './components/PageLoader'
 
 const App = () => {
   return (
     <>
+    
       <Particle />
-
       <main style={{ position: 'relative', zIndex: 1 }}>
         <Navbar />
-
+        <PageLoader />
         <div className="max-w-7xl mx-auto pt-20 px-6">
           <HeroSection />
           <About />
@@ -23,6 +25,7 @@ const App = () => {
           <Skills />
           <Education />
           <Projects />
+          <Footer />
         </div>
       </main>
     </>
