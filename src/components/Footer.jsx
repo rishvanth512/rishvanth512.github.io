@@ -9,7 +9,7 @@ const Footer = () => {
 
          {/* Phone (updated icon) */}
          <a
-          href="tel:+1234567890"
+          href="tel:+12162357527"
           aria-label="Phone"
           className="hover:text-gray-400 transition-colors"
         >
