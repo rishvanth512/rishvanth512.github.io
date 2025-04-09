@@ -38,10 +38,10 @@ const Projects = () => {
       githubLink: 'https://github.com/rishvanth512/Diabetes-prediction',
     },
     {
-      title: 'Portifolio',
+      title: 'Portfolio',
       description:
         'A personal portfolio website showcasing projects, skills, and experiences, designed to highlight expertise and attract potential clients or employers.',
-      githubLink: 'https://github.com/rishvanth512/portifolio',
+      githubLink: 'https://github.com/rishvanth512/portfolio',
     },
     
     
