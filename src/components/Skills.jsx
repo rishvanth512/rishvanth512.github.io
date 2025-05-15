@@ -4,10 +4,15 @@ import {
   FaCss3Alt,
   FaJs,
   FaReact,
+  FaBootstrap,
+  FaNodeJs,
   FaPython,
   FaPhp,
-} from "react-icons/fa";
-import { SiMysql, SiNextdotjs, SiC, SiWordpress } from "react-icons/si";
+  FaGitAlt,
+  FaGithub,
+} 
+from "react-icons/fa";
+import { SiMysql, SiNextdotjs, SiC, SiWordpress, SiJira, SiLinux, SiTailwindcss, SiTypescript, SiDjango, SiSqlite, SiMongodb, } from "react-icons/si";
 import { AiFillAndroid } from "react-icons/ai";
 import ExcelIcon from './icons/excel.svg';
 import CpanelIcon from './icons/cpanel.svg';
@@ -17,24 +22,40 @@ const skills = [
   {
     category: "Programming & Frameworks",
     skills: [
-      { icon: <FaPython />, name: "Python", color: "#3776ab" },
-      { icon: <FaJs />, name: "JavaScript", color: "#f7df1e" },
-      { icon: <FaReact />, name: "ReactJS", color: "#61dafb" },
-      { icon: <SiNextdotjs />, name: "Next.js", color: "#FFFFFF" },
-      { icon: <FaPhp />, name: "PHP", color: "#777BB4" },
-      { icon: <SiC />, name: "C", color: "#A8B9CC" },
+      
       { icon: <FaHtml5 />, name: "HTML", color: "#e34c26" },
       { icon: <FaCss3Alt />, name: "CSS", color: "#264de4" },
+      { icon: <FaJs />, name: "JavaScript", color: "#f7df1e" },
+      { icon: <SiTypescript />, name: "TypeScript", color: "#007acc" },
+      { icon: <FaReact />, name: "ReactJS", color: "#61dafb" },
+      { icon: <FaBootstrap />, name: "Bootstrap", color: "#563d7c" },
+      { icon: <FaNodeJs />, name: "Node.js", color: "#8CC84B" },
+      { icon: <SiNextdotjs />, name: "Next.js", color: "#FFFFFF" },
+      { icon: <FaPhp />, name: "PHP", color: "#777BB4" },
+      { icon: <FaPython />, name: "Python", color: "#3776ab" },
+      { icon: <SiC />, name: "C", color: "#A8B9CC" },
+      { icon: <FaGitAlt />, name: "Git", color: "#F1502F"},
+      { icon: <FaGithub />, name: "GitHub", color: "#181717" },
+      { icon: <SiDjango />, name: "Django", color: "#2BA977" },
     ],
   },
   {
     category: "Databases",
-    skills: [{ icon: <SiMysql />, name: "MySQL", color: "#00758f" }],
+    skills: [
+      { icon: <SiMysql />, name: "MySQL", color: "#00758f" },
+      { icon: <SiSqlite />, name: "SQLite", color: "#003B57" },
+      { icon: <SiMongodb />, name: "MongoDB", color: "#47A248" },
+    ],
+
   },
   {
     category: "Technical Skills",
     skills: [
       { icon: <SiWordpress />, name: "WordPress", color: "#21759b" },
+      
+      { icon: <SiJira />, name: "Jira", color: "#0052cc" },
+      { icon: <SiLinux />, name: "Linux", color: "#fcc624" },
+      { icon: <SiTailwindcss />, name: "Tailwind CSS", color: "#38bdf8" },
       { icon: <AiFillAndroid />, name: "Android Studio", color: "#3ddc84" },
       { icon: <img src={ExcelIcon} alt="Excel Icon" className="w-12 h-12" />, name: "Microsoft Excel" },
       { icon: <img src={CpanelIcon} alt="cPanel Icon" className="w-12 h-12" />, name: "cPanel" },
@@ -45,7 +66,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div id="skills" className="text-white py-16 px-6 border-b border-neutral-800 pt-16">
+    <div id="skills" className="text-white py-16 px-6 border-b border-neutral-800 pt-16 ">
       <div className="text-center">
         <h2
           className="text-2xl sm:text-2xl lg:text-3xl mt-5 lg:mt-5 tracking-wide 
@@ -70,7 +91,7 @@ const Skills = () => {
          
           <div
             className={`grid ${
-              category.category === "Databases"
+              category.category ===  ""
                 ? "grid-cols-1 justify-center"
                 : "grid-cols-2 sm:grid-cols-3 md:grid-cols-5"
             } gap-8 justify-items-center`}

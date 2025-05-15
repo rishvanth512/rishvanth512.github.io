@@ -1,6 +1,15 @@
 import React from 'react'
 
 const experiences = [
+
+
+   {
+      year: "April 2025 – Present",
+      title: "Web Development Intern",
+      company: "GAOTek Inc.",
+      description:
+        "Designed and customized WordPress product pages using PHP, HTML/CSS, and AJAX for live search, enhancing UX and site performance across front-end and back-end.",
+    },
     {
       year: "Feb 2023 – July 2023",
       title: "Web Development & Designing Digital Web Intern",
