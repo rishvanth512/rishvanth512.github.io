@@ -25,10 +25,10 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
       <div className="container px-4 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
-          <div className="flex items-center flex-shrink-0 ml-2">
+          <div className="flex items-center flex-shrink-0 ml-0 lg:ml-20">
             <a href="/">
               <img
-                className="h-12 w-12 ml-20 rounded-full border-4 border-gray-300 shadow-lg"
+                className="h-12 w-12  rounded-full border-4 border-gray-300 shadow-lg"
                 src={logo}
                 alt="Logo"
               />
