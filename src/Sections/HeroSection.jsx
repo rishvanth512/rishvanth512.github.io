@@ -37,7 +37,7 @@ export default function HeroSection() {
   function calculateSizes(isSmall, isMobile, isTablet) {
     return {
       deskScale: isSmall ? 1.0 : isMobile ? 1.5 : isTablet ? 2 : 3,
-      deskPosition: isSmall ? [4, -5.8, -5.6] : isMobile ? [1.3, -5.8, -5.6] : [5, -5.8, -5.6],
+      deskPosition: isSmall ? [1.3, -5.8, -5.6] : isMobile ? [1.3, -5.8, -5.6] : [5, -5.8, -5.6],
       deskRotation: [0.2, -89.53, 0],
       cameraPosition: isSmall ? [0, 0, 20] : isMobile ? [0, 0, 28] : [0, 0, 25],
     };
@@ -85,7 +85,9 @@ export default function HeroSection() {
         </a>
       </div>
 
-      <div className="w-full h-[600px] lg:h-[600px] inset-0 z-0 -mt-10 lg:-mt-10">
+      <div className={`w-full inset-0 z-0 -mt-10 lg:-mt-10 ${
+        isMobile ? "h-[500px]" : "h-[600px]"
+        }`}>
         <Canvas
         dpr={[5, 10]}
         >

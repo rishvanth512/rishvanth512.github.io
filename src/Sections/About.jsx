@@ -4,7 +4,7 @@ const About = () => {
 
   return (
 
-    <div id={sectionId} className="relative -mt-30 lg:-mt-20 border-b border-neutral-800 min-h-[500px] pt-16">
+    <div id={sectionId} className="relative -mt-15 lg:-mt-20 border-b border-neutral-800 min-h-[500px] pt-16">
       <div className='text-center'>
         <h2 className="text-2xl sm:text-2xl lg:text-3xl mt-10 lg:mt-5 tracking-wide 
             bg-gradient-to-r from-[#ff0080] to-[#7928CA] bg-clip-text text-transparent uppercase 
