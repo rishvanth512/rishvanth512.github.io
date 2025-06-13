@@ -40,7 +40,7 @@ const Navbar = () => {
                 <li key={index}>
                   <a
                     href={`#${item.id}`}
-                    className="text-[#8248bc] hover:text-[#f5a623] transition duration-300"
+                    className=" hover:text-[#f5a623] transition duration-300"
                     onClick={(e) => handleNavClick(e, item.id)}
                   >
                     {item.label}
