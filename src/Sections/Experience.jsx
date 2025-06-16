@@ -3,8 +3,15 @@ import React from 'react'
 const experiences = [
 
 
-   {
-      year: "April 2025 – Present",
+  {
+      year: "June 2025 – Present",
+      title: "AI Developer",
+      company: "EasyBee AI",
+      description:
+        "Developing and implementing AI-driven solutions to optimize business processes and enhance customer experiences.",
+    },
+  {
+      year: "April 2025 – June 2025",
       title: "Web Development Intern",
       company: "GAOTek Inc.",
       description:
@@ -27,7 +34,7 @@ const experiences = [
     {
       year: "Jun 2021 – Aug 2021",
       title: "Software Development Intern",
-      company: "Creative Digital Agency",
+      company: "Hashinclude",
       description:
         "Designed Udenz hospital website using HTML, CSS, JavaScript, React.js, and Figma, including responsive pages and debugging with Chrome DevTools.",
     },
